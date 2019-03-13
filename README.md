@@ -30,7 +30,7 @@ heroku will only install dependencies in the root so make sure to include all th
 react dependencies should not be in the root package.json because we will tell heroku to npm install and build react's folder right after the deploy, by adding the script:  
 "heroku-postbuild": "cd client && npm install && npm run build"
 
-nested packages(.json) know about outer packages(.json) so no need to include dependencies to nested one's if you already have them in the other one's.
+nested packages(.json) know about outer packages(.json) so no need to include dependencies to nested one's if you already have them in the other one's. even if you use npm start in the nested one's, it will use the dependencies of the outer one's.
 
 make sure when you deploy to use the current versions of the dependencies by removing the '^' so the app will stay stable
 you can even auto do it beforehand by changing the defaults for npm:  
