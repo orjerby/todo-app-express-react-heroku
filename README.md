@@ -27,5 +27,5 @@ nested packages(.json) know about outer packages(.json) so no need to include de
 
 make sure when you deploy to use the current versions of the dependencies by removing the '^' so the app will stay stable
 you can even auto do it beforehand by changing the defaults for npm:  
-npm config set save=true
+npm config set save=true  
 npm config set save-exact=true
