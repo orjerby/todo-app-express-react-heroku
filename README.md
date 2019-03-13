@@ -2,10 +2,6 @@
 
 npm install in every folder there is package.json.
 
-make sure to set MONGODB_URL and JWT_SECRET to heroku configs:  
-heroku config:set MONGODB_URL=...  
-heroku config:set JWT_SECRET=...
-
 run locally:  
 npm run dev
 
@@ -15,7 +11,10 @@ add .gitignore with node_modules and config
 git add .  
 git commit -m "Initial commit"  
 heroku create [name of app]  
-git push heroku master
+git push heroku master  
+make sure to set MONGODB_URL and JWT_SECRET to heroku configs:  
+heroku config:set MONGODB_URL=...  
+heroku config:set JWT_SECRET=...
 
 ### Info
 
