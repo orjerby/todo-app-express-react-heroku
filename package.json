@@ -13,8 +13,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "2.4.3",
     "concurrently": "4.1.0",
     "env-cmd": "8.0.2",
-    "express": "4.16.4"
+    "express": "4.16.4",
+    "jsonwebtoken": "8.5.0",
+    "mongodb": "3.1.13",
+    "mongoose": "5.4.19",
+    "validator": "10.11.0"
   }
 }
