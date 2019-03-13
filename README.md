@@ -10,11 +10,11 @@ run locally:
 npm run dev
 
 deploy:  
-git init
-add .gitignore with node_modules and config
-git add .
-git commit -m "Initial commit"
-heroku create [name of app]
+git init  
+add .gitignore with node_modules and config  
+git add .  
+git commit -m "Initial commit"  
+heroku create [name of app]  
 git push heroku master
 
 ### Info
