@@ -6,7 +6,7 @@ create config folder in server folder and create there dev.env file.
 
 copy paste this to the dev.env file:  
 PORT=3001  
-MONGODB_URL=mongodb://127.0.0.1:27017/[name of app] 
+MONGODB_URL=mongodb://127.0.0.1:27017/[name of app]  
 JWT_SECRET=[some password]
 
 run locally:  
