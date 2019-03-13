@@ -8,6 +8,17 @@ make sure to set MONGODB_URL and JWT_SECRET to heroku configs:
 heroku config:set MONGODB_URL=...
 heroku config:set JWT_SECRET=...
 
+run locally:
+npm run dev
+
+deploy:
+git init
+add .gitignore with node_modules and config
+git add .
+git commit -m "Initial commit"
+heroku create [name of app]
+git push heroku master
+
 ### Info
 
 heroku will only install dependencies in the root so make sure to include all the server dependencies in the root package.json.
