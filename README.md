@@ -1,5 +1,3 @@
-## Info
-
 ### Instructions
 
 npm install in every folder there is package.json.
